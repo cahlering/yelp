@@ -6,13 +6,13 @@
 //  Copyright (c) 2014 Chris Ahlering. All rights reserved.
 //
 
-#import "RTSearchResultListViewController.h"
+#import "YPSearchResultListViewController.h"
 
-@interface RTSearchResultListViewController ()
+@interface YPSearchResultListViewController ()
 
 @end
 
-@implementation RTSearchResultListViewController
+@implementation YPSearchResultListViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -33,6 +33,16 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (NSInteger) tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+    return 10;
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+    UITableViewCell *cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:nil];
+    cell.textLabel.text = [NSString stringWithFormat:@"Row %d", indexPath.row];
+    return cell;
 }
 
 @end

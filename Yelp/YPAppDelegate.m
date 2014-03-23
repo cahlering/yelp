@@ -1,20 +1,24 @@
 //
-//  RTAppDelegate.m
+//  YPAppDelegate.m
 //  Yelp
 //
 //  Created by Chris Ahlering on 3/23/14.
 //  Copyright (c) 2014 Chris Ahlering. All rights reserved.
 //
 
-#import "RTAppDelegate.h"
+#import "YPAppDelegate.h"
+#import "controllers/YPSearchResultListViewController.h"
 
-@implementation RTAppDelegate
+@implementation YPAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
+    YPSearchResultListViewController *yelpController = [[YPSearchResultListViewController alloc]init];
+    UINavigationController *rvc = [[UINavigationController alloc]initWithRootViewController:yelpController];
+    self.window.rootViewController = rvc;
+    self.window.backgroundColor = [UIColor redColor];
     [self.window makeKeyAndVisible];
     return YES;
 }
