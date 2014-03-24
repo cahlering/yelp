@@ -24,6 +24,11 @@
 		9578B8DE18DF47CC00DC86C1 /* YPSearchResultListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9578B8DC18DF47CC00DC86C1 /* YPSearchResultListViewController.xib */; };
 		9578B8E418DF6A1D00DC86C1 /* YPSearchResultTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9578B8E218DF6A1D00DC86C1 /* YPSearchResultTableViewCell.m */; };
 		9578B8E518DF6A1D00DC86C1 /* YPSearchResultTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9578B8E318DF6A1D00DC86C1 /* YPSearchResultTableViewCell.xib */; };
+		9578B8E918DF749700DC86C1 /* YPSearchResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 9578B8E818DF749700DC86C1 /* YPSearchResponse.m */; };
+		9578B8EC18DF74E300DC86C1 /* YPSearchResultBusiness.m in Sources */ = {isa = PBXBuildFile; fileRef = 9578B8EB18DF74E300DC86C1 /* YPSearchResultBusiness.m */; };
+		9578B8F018DFD42B00DC86C1 /* YPSearchFiltersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9578B8EE18DFD42B00DC86C1 /* YPSearchFiltersViewController.m */; };
+		9578B8F118DFD42B00DC86C1 /* YPSearchFiltersViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9578B8EF18DFD42B00DC86C1 /* YPSearchFiltersViewController.xib */; };
+		9578B8F618DFE86800DC86C1 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9578B8F518DFE86800DC86C1 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +65,14 @@
 		9578B8E118DF6A1D00DC86C1 /* YPSearchResultTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YPSearchResultTableViewCell.h; path = views/YPSearchResultTableViewCell.h; sourceTree = "<group>"; };
 		9578B8E218DF6A1D00DC86C1 /* YPSearchResultTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YPSearchResultTableViewCell.m; path = views/YPSearchResultTableViewCell.m; sourceTree = "<group>"; };
 		9578B8E318DF6A1D00DC86C1 /* YPSearchResultTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = YPSearchResultTableViewCell.xib; path = views/YPSearchResultTableViewCell.xib; sourceTree = "<group>"; };
+		9578B8E718DF749700DC86C1 /* YPSearchResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YPSearchResponse.h; path = models/YPSearchResponse.h; sourceTree = "<group>"; };
+		9578B8E818DF749700DC86C1 /* YPSearchResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YPSearchResponse.m; path = models/YPSearchResponse.m; sourceTree = "<group>"; };
+		9578B8EA18DF74E300DC86C1 /* YPSearchResultBusiness.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YPSearchResultBusiness.h; path = models/YPSearchResultBusiness.h; sourceTree = "<group>"; };
+		9578B8EB18DF74E300DC86C1 /* YPSearchResultBusiness.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YPSearchResultBusiness.m; path = models/YPSearchResultBusiness.m; sourceTree = "<group>"; };
+		9578B8ED18DFD42B00DC86C1 /* YPSearchFiltersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YPSearchFiltersViewController.h; path = controllers/YPSearchFiltersViewController.h; sourceTree = "<group>"; };
+		9578B8EE18DFD42B00DC86C1 /* YPSearchFiltersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YPSearchFiltersViewController.m; path = controllers/YPSearchFiltersViewController.m; sourceTree = "<group>"; };
+		9578B8EF18DFD42B00DC86C1 /* YPSearchFiltersViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = YPSearchFiltersViewController.xib; path = controllers/YPSearchFiltersViewController.xib; sourceTree = "<group>"; };
+		9578B8F518DFE86800DC86C1 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		C313104C8E6C47E5B9EF38FE /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -68,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9578B8F618DFE86800DC86C1 /* CoreLocation.framework in Frameworks */,
 				95121C7118DF39E30012C6DB /* CoreGraphics.framework in Frameworks */,
 				95121C7318DF39E30012C6DB /* UIKit.framework in Frameworks */,
 				95121C6F18DF39E30012C6DB /* Foundation.framework in Frameworks */,
@@ -111,6 +125,7 @@
 		95121C6D18DF39E30012C6DB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9578B8F518DFE86800DC86C1 /* CoreLocation.framework */,
 				95121C6E18DF39E30012C6DB /* Foundation.framework */,
 				95121C7018DF39E30012C6DB /* CoreGraphics.framework */,
 				95121C7218DF39E30012C6DB /* UIKit.framework */,
@@ -124,6 +139,7 @@
 			isa = PBXGroup;
 			children = (
 				9578B8DF18DF47DA00DC86C1 /* controllers */,
+				9578B8E618DF742700DC86C1 /* models */,
 				9578B8E018DF69A200DC86C1 /* views */,
 				95121C7D18DF39E30012C6DB /* YPAppDelegate.h */,
 				95121C7E18DF39E30012C6DB /* YPAppDelegate.m */,
@@ -168,6 +184,9 @@
 				9578B8DA18DF47CC00DC86C1 /* YPSearchResultListViewController.h */,
 				9578B8DB18DF47CC00DC86C1 /* YPSearchResultListViewController.m */,
 				9578B8DC18DF47CC00DC86C1 /* YPSearchResultListViewController.xib */,
+				9578B8ED18DFD42B00DC86C1 /* YPSearchFiltersViewController.h */,
+				9578B8EE18DFD42B00DC86C1 /* YPSearchFiltersViewController.m */,
+				9578B8EF18DFD42B00DC86C1 /* YPSearchFiltersViewController.xib */,
 			);
 			name = controllers;
 			sourceTree = "<group>";
@@ -180,6 +199,17 @@
 				9578B8E318DF6A1D00DC86C1 /* YPSearchResultTableViewCell.xib */,
 			);
 			name = views;
+			sourceTree = "<group>";
+		};
+		9578B8E618DF742700DC86C1 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				9578B8E718DF749700DC86C1 /* YPSearchResponse.h */,
+				9578B8E818DF749700DC86C1 /* YPSearchResponse.m */,
+				9578B8EA18DF74E300DC86C1 /* YPSearchResultBusiness.h */,
+				9578B8EB18DF74E300DC86C1 /* YPSearchResultBusiness.m */,
+			);
+			name = models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,6 +291,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9578B8DE18DF47CC00DC86C1 /* YPSearchResultListViewController.xib in Resources */,
+				9578B8F118DFD42B00DC86C1 /* YPSearchFiltersViewController.xib in Resources */,
 				9578B8E518DF6A1D00DC86C1 /* YPSearchResultTableViewCell.xib in Resources */,
 				95121C7918DF39E30012C6DB /* InfoPlist.strings in Resources */,
 				95121C8118DF39E30012C6DB /* Images.xcassets in Resources */,
@@ -315,9 +346,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9578B8E918DF749700DC86C1 /* YPSearchResponse.m in Sources */,
 				95121C7F18DF39E30012C6DB /* YPAppDelegate.m in Sources */,
 				9578B8E418DF6A1D00DC86C1 /* YPSearchResultTableViewCell.m in Sources */,
+				9578B8EC18DF74E300DC86C1 /* YPSearchResultBusiness.m in Sources */,
 				9578B8DD18DF47CC00DC86C1 /* YPSearchResultListViewController.m in Sources */,
+				9578B8F018DFD42B00DC86C1 /* YPSearchFiltersViewController.m in Sources */,
 				95121C7B18DF39E30012C6DB /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

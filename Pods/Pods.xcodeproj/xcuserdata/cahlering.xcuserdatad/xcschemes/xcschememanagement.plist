@@ -14,6 +14,16 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Pods-BDBOAuth1Manager.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-MBAlertView.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -22,17 +32,27 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>346540830D5F4CBBB60CF44D</key>
+		<key>3781DECDF3C248E79DCF138A</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>50F4666744D1462CAB9D0341</key>
+		<key>3FF0782303244C8E9F4D14F7</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>858FA46001734283B5EB9E12</key>
+		<key>5EFB22630DF544C2B4A7CAB3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EAFB0099219340E390FE362B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EDD13797134541798D1495EB</key>
 		<dict>
 			<key>primary</key>
 			<true/>

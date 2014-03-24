@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "../models/YPSearchResultBusiness.h"
 
 @interface YPSearchResultTableViewCell : UITableViewCell
+
+@property (nonatomic, weak) YPSearchResultBusiness *business;
 
 @end
