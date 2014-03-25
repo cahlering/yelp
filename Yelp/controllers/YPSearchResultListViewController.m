@@ -91,8 +91,8 @@ NSString *const CustomCellName = @"YPSearchResultTableViewCell";
     }
     
     //NSString *url = @"http://api.yelp.com/business_review_search?term=steak&location=499%20Marina%20Blvd%2ASan%20Francisco%2A%20CA&ywsid=KZ4sEVlAV54Ofp2q9rA4CQ";
-    //NSString *url = @"http://localhost:10088/yelp.json";
-    NSString *url = [NSString stringWithFormat:@"http://api.yelp.com/business_review_search?term=%@&lat=%@&long=%@&ywsid=KZ4sEVlAV54Ofp2q9rA4CQ", searchTerm, _latitudeString, _longitudeString];
+    NSString *url = @"http://localhost:10088/yelp.json";
+    //NSString *url = [NSString stringWithFormat:@"http://api.yelp.com/business_review_search?term=%@&lat=%@&long=%@&ywsid=KZ4sEVlAV54Ofp2q9rA4CQ", searchTerm, _latitudeString, _longitudeString];
     NSURL *nsUrl = [NSURL URLWithString: url];
     NSURLRequest *request = [NSURLRequest requestWithURL: nsUrl];
     

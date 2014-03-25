@@ -45,6 +45,7 @@
     self.businessTitleLabel.text = self.business.name;
     self.reviewCountLabel.text = [NSString stringWithFormat:@"%@", self.business.reviewCount];
     self.addressLabel.text = [NSString stringWithFormat:@"%@, %@", self.business.address1, self.business.city];
+    self.reviewCountLabel.text = [NSString stringWithFormat:@"%@ Review%@", self.business.reviewCount, ([self.business.reviewCount intValue] != 1) ? @"s": @"" ];
     
     NSURL *thumbNailUrl = [NSURL URLWithString:self.business.photoUrl];
     NSURLRequest *thumbnailRequest = [NSURLRequest requestWithURL:thumbNailUrl];

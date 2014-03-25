@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface YPSearchFiltersViewController : UIViewController
+@interface YPSearchFiltersViewController : UIViewController<UITableViewDelegate, UITableViewDataSource>
 
 @end
