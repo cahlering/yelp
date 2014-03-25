@@ -23,6 +23,7 @@
 @property (strong, nonatomic) NSString *latitudeString;
 @property (strong, nonatomic) NSString *longitudeString;
 @property (strong, nonatomic) YPFilterSettings *filterSettings;
+@property (strong, nonatomic) NSDictionary *categoryListing;
 
 @end
 
@@ -41,7 +42,6 @@ NSString *const CustomCellName = @"YPSearchResultTableViewCell";
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
-        [self getBusinessesWithSearchTerm:@"Thai"];
     }
     return self;
 }
@@ -63,7 +63,6 @@ NSString *const CustomCellName = @"YPSearchResultTableViewCell";
     UIBarButtonItem *filterButtonItem =[[UIBarButtonItem alloc] initWithTitle:@"Filter" style:UIBarButtonItemStylePlain target:self action:@selector(onFilterButton)];
     [filterButtonItem setTitleTextAttributes:@{NSForegroundColorAttributeName:[UIColor whiteColor]} forState:UIControlStateNormal];
     self.navigationItem.leftBarButtonItem = filterButtonItem;
-
     
     manager = [[CLLocationManager alloc]init];
     manager.delegate = self;
@@ -72,12 +71,18 @@ NSString *const CustomCellName = @"YPSearchResultTableViewCell";
     geocoder = [[CLGeocoder alloc]init];
     
     self.filterSettings = [[YPFilterSettings alloc]init];
+    self.filterSettings.radiusInMiles = [NSNumber numberWithInt:5];
+    self.filterSettings.sortMethod = @"Best Match";
+    self.filterSettings.selectedCategories = [@[@"burgers", @"british"] mutableCopy];
+    NSString *path = [[NSBundle mainBundle] pathForResource:@"categories" ofType:@"plist"];
+    self.categoryListing = [[NSDictionary alloc] initWithContentsOfFile:path];
     
 }
 
 - (void)onFilterButton {
     YPSearchFiltersViewController *searchFiltersViewController = [[YPSearchFiltersViewController alloc]init];
     [searchFiltersViewController setSettings:self.filterSettings];
+    [searchFiltersViewController setCategories:self.categoryListing];
     [self.navigationController pushViewController:searchFiltersViewController animated:YES];
 }
 
@@ -99,9 +104,22 @@ NSString *const CustomCellName = @"YPSearchResultTableViewCell";
         return;
     }
     
+    NSMutableString *categoryFilterString = [[NSMutableString alloc]init];
+    if ([self.filterSettings.selectedCategories count] > 0) {
+        for (NSString *category in self.filterSettings.selectedCategories) {
+            NSString *appendFormat;
+            if ([categoryFilterString length] == 0) {
+                appendFormat = @"&category=%@";
+            } else {
+                appendFormat = @"+%@";
+            }
+           [categoryFilterString appendString:[NSString stringWithFormat:appendFormat, category]];
+        }
+    }
+    
     //NSString *url = @"http://api.yelp.com/business_review_search?term=steak&location=499%20Marina%20Blvd%2ASan%20Francisco%2A%20CA&ywsid=KZ4sEVlAV54Ofp2q9rA4CQ";
-    NSString *url = @"http://localhost:10088/yelp.json";
-    //NSString *url = [NSString stringWithFormat:@"http://api.yelp.com/business_review_search?term=%@&lat=%@&long=%@&ywsid=KZ4sEVlAV54Ofp2q9rA4CQ", searchTerm, _latitudeString, _longitudeString];
+    //NSString *url = @"http://localhost:10088/yelp.json";
+    NSString *url = [NSString stringWithFormat:@"http://api.yelp.com/business_review_search?term=%@&lat=%@&long=%@&radius=%@%@&ywsid=KZ4sEVlAV54Ofp2q9rA4CQ", searchTerm, _latitudeString, _longitudeString, self.filterSettings.radiusInMiles, categoryFilterString];
     NSURL *nsUrl = [NSURL URLWithString: url];
     NSURLRequest *request = [NSURLRequest requestWithURL: nsUrl];
     
@@ -158,6 +176,7 @@ NSString *const CustomCellName = @"YPSearchResultTableViewCell";
 - (void)searchBarSearchButtonClicked:(UISearchBar *)searchBar
 {
     NSLog(@"search clicked");
+    [searchBar resignFirstResponder];
     [self getBusinessesWithSearchTerm:searchBar.text];
 }
 

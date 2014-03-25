@@ -29,6 +29,11 @@
 		9578B8F018DFD42B00DC86C1 /* YPSearchFiltersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9578B8EE18DFD42B00DC86C1 /* YPSearchFiltersViewController.m */; };
 		9578B8F118DFD42B00DC86C1 /* YPSearchFiltersViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9578B8EF18DFD42B00DC86C1 /* YPSearchFiltersViewController.xib */; };
 		9578B8F618DFE86800DC86C1 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9578B8F518DFE86800DC86C1 /* CoreLocation.framework */; };
+		95AA4B5B18E159B700B8ED3B /* YPSwitchTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 95AA4B5918E159B700B8ED3B /* YPSwitchTableViewCell.m */; };
+		95AA4B5C18E159B700B8ED3B /* YPSwitchTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 95AA4B5A18E159B700B8ED3B /* YPSwitchTableViewCell.xib */; };
+		95AA4B6118E1AF4600B8ED3B /* YPFilterSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 95AA4B6018E1AF4600B8ED3B /* YPFilterSettings.m */; };
+		95D80AE418E2313B00DBEF73 /* YPBusinessCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 95D80AE318E2313B00DBEF73 /* YPBusinessCategory.m */; };
+		95D80AE618E23F8A00DBEF73 /* categories.plist in Resources */ = {isa = PBXBuildFile; fileRef = 95D80AE518E23F8A00DBEF73 /* categories.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +78,14 @@
 		9578B8EE18DFD42B00DC86C1 /* YPSearchFiltersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YPSearchFiltersViewController.m; path = controllers/YPSearchFiltersViewController.m; sourceTree = "<group>"; };
 		9578B8EF18DFD42B00DC86C1 /* YPSearchFiltersViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = YPSearchFiltersViewController.xib; path = controllers/YPSearchFiltersViewController.xib; sourceTree = "<group>"; };
 		9578B8F518DFE86800DC86C1 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		95AA4B5818E159B700B8ED3B /* YPSwitchTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YPSwitchTableViewCell.h; path = views/YPSwitchTableViewCell.h; sourceTree = "<group>"; };
+		95AA4B5918E159B700B8ED3B /* YPSwitchTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YPSwitchTableViewCell.m; path = views/YPSwitchTableViewCell.m; sourceTree = "<group>"; };
+		95AA4B5A18E159B700B8ED3B /* YPSwitchTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = YPSwitchTableViewCell.xib; path = views/YPSwitchTableViewCell.xib; sourceTree = "<group>"; };
+		95AA4B5F18E1AF4600B8ED3B /* YPFilterSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YPFilterSettings.h; path = models/YPFilterSettings.h; sourceTree = "<group>"; };
+		95AA4B6018E1AF4600B8ED3B /* YPFilterSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YPFilterSettings.m; path = models/YPFilterSettings.m; sourceTree = "<group>"; };
+		95D80AE218E2313B00DBEF73 /* YPBusinessCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YPBusinessCategory.h; path = models/YPBusinessCategory.h; sourceTree = "<group>"; };
+		95D80AE318E2313B00DBEF73 /* YPBusinessCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YPBusinessCategory.m; path = models/YPBusinessCategory.m; sourceTree = "<group>"; };
+		95D80AE518E23F8A00DBEF73 /* categories.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = categories.plist; sourceTree = "<group>"; };
 		C313104C8E6C47E5B9EF38FE /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -156,6 +169,7 @@
 				95121C7718DF39E30012C6DB /* InfoPlist.strings */,
 				95121C7A18DF39E30012C6DB /* main.m */,
 				95121C7C18DF39E30012C6DB /* Yelp-Prefix.pch */,
+				95D80AE518E23F8A00DBEF73 /* categories.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -197,6 +211,9 @@
 				9578B8E118DF6A1D00DC86C1 /* YPSearchResultTableViewCell.h */,
 				9578B8E218DF6A1D00DC86C1 /* YPSearchResultTableViewCell.m */,
 				9578B8E318DF6A1D00DC86C1 /* YPSearchResultTableViewCell.xib */,
+				95AA4B5818E159B700B8ED3B /* YPSwitchTableViewCell.h */,
+				95AA4B5918E159B700B8ED3B /* YPSwitchTableViewCell.m */,
+				95AA4B5A18E159B700B8ED3B /* YPSwitchTableViewCell.xib */,
 			);
 			name = views;
 			sourceTree = "<group>";
@@ -208,6 +225,10 @@
 				9578B8E818DF749700DC86C1 /* YPSearchResponse.m */,
 				9578B8EA18DF74E300DC86C1 /* YPSearchResultBusiness.h */,
 				9578B8EB18DF74E300DC86C1 /* YPSearchResultBusiness.m */,
+				95AA4B5F18E1AF4600B8ED3B /* YPFilterSettings.h */,
+				95AA4B6018E1AF4600B8ED3B /* YPFilterSettings.m */,
+				95D80AE218E2313B00DBEF73 /* YPBusinessCategory.h */,
+				95D80AE318E2313B00DBEF73 /* YPBusinessCategory.m */,
 			);
 			name = models;
 			sourceTree = "<group>";
@@ -290,11 +311,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95AA4B5C18E159B700B8ED3B /* YPSwitchTableViewCell.xib in Resources */,
 				9578B8DE18DF47CC00DC86C1 /* YPSearchResultListViewController.xib in Resources */,
 				9578B8F118DFD42B00DC86C1 /* YPSearchFiltersViewController.xib in Resources */,
 				9578B8E518DF6A1D00DC86C1 /* YPSearchResultTableViewCell.xib in Resources */,
 				95121C7918DF39E30012C6DB /* InfoPlist.strings in Resources */,
 				95121C8118DF39E30012C6DB /* Images.xcassets in Resources */,
+				95D80AE618E23F8A00DBEF73 /* categories.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -346,6 +369,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95D80AE418E2313B00DBEF73 /* YPBusinessCategory.m in Sources */,
+				95AA4B6118E1AF4600B8ED3B /* YPFilterSettings.m in Sources */,
+				95AA4B5B18E159B700B8ED3B /* YPSwitchTableViewCell.m in Sources */,
 				9578B8E918DF749700DC86C1 /* YPSearchResponse.m in Sources */,
 				95121C7F18DF39E30012C6DB /* YPAppDelegate.m in Sources */,
 				9578B8E418DF6A1D00DC86C1 /* YPSearchResultTableViewCell.m in Sources */,

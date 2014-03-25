@@ -11,8 +11,8 @@
 @interface YPFilterSettings : NSObject
 
 @property (nonatomic) BOOL deals;
-@property (nonatomic, strong) NSArray *selectedCategories;
+@property (nonatomic, strong) NSMutableArray *selectedCategories;
 @property (nonatomic, strong) NSString *sortMethod;
-@property (nonatomic, strong) NSNumber *radiusInMeters;
+@property (nonatomic, strong) NSNumber *radiusInMiles;
 
 @end

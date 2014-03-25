@@ -7,6 +7,7 @@
 //
 
 #import "YPSearchResultBusiness.h"
+#import "YPBusinessCategory.h"
 
 @implementation YPSearchResultBusiness
 
@@ -22,4 +23,7 @@
     return self;
 }
 
+- (Class)classForElementsInArrayProperty:(NSString *)categories {
+    return [YPBusinessCategory class];
+}
 @end

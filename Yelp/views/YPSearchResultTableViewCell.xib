@@ -24,13 +24,13 @@
                         <nil key="highlightedColor"/>
                     </label>
                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="dist" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ivi-60-0U7">
-                        <rect key="frame" x="268" y="4" width="32" height="15"/>
+                        <rect key="frame" x="257" y="4" width="43" height="15"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <constraints>
                             <constraint firstAttribute="height" constant="15" id="Zb1-pT-A7M"/>
-                            <constraint firstAttribute="width" constant="32" id="s6M-cv-pDc"/>
+                            <constraint firstAttribute="width" constant="43" id="s6M-cv-pDc"/>
                         </constraints>
-                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
                         <nil key="highlightedColor"/>
                     </label>
                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="review Ct" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XxN-wK-kUC">
@@ -70,7 +70,7 @@
                             <constraint firstAttribute="width" constant="209" id="99A-FE-ps2"/>
                             <constraint firstAttribute="height" constant="15" id="F6I-8s-hoR"/>
                         </constraints>
-                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
                         <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                         <nil key="highlightedColor"/>
                     </label>
@@ -115,7 +115,7 @@
                 <outlet property="businessImage" destination="Atu-vx-Okb" id="eWI-yd-PeK"/>
                 <outlet property="businessTitleLabel" destination="Byn-kD-0t1" id="xFG-M6-JVi"/>
                 <outlet property="categoryLabel" destination="4oe-4Z-h4r" id="lob-hF-Lpb"/>
-                <outlet property="distanceLabel" destination="XxN-wK-kUC" id="eXr-3W-qdC"/>
+                <outlet property="distanceLabel" destination="Ivi-60-0U7" id="eXr-3W-qdC"/>
                 <outlet property="priceLabel" destination="HX6-1r-N1r" id="ABw-bY-o89"/>
                 <outlet property="ratingImage" destination="HLv-qO-C8m" id="Q8g-qV-cc4"/>
                 <outlet property="reviewCountLabel" destination="XxN-wK-kUC" id="PBR-DQ-doY"/>

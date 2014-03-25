@@ -1,0 +1,1542 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+
+<dict>
+    <key>Active Life (active)</key>
+    <dict>
+        <key>Amateur Sports Teams (amateursportsteams)</key>
+        <string/>
+        <key>Amusement Parks (amusementparks)</key>
+        <string/>
+        <key>Aquariums (aquariums)</key>
+        <string/>
+        <key>Archery (archery)</key>
+        <string/>
+        <key>Badminton (badminton)</key>
+        <string/>
+        <key>Basketball Courts (basketballcourts)</key>
+        <string/>
+        <key>Beaches (beaches)</key>
+        <string/>
+        <key>Bike Rentals (bikerentals)</key>
+        <string/>
+        <key>Boating (boating)</key>
+        <string/>
+        <key>Bowling (bowling)</key>
+        <string/>
+        <key>Challenge Courses (challengecourses)</key>
+        <string/>
+        <key>Climbing (climbing)</key>
+        <string/>
+        <key>Cycling Classes (cyclingclasses)</key>
+        <string/>
+        <key>Day Camps (daycamps)</key>
+        <string/>
+        <key>Disc Golf (discgolf)</key>
+        <string/>
+        <key>Diving (diving)</key>
+        <dict>
+            <key>Free Diving (freediving)</key>
+            <string/>
+            <key>Scuba Diving (scuba)</key>
+            <string/>
+        </dict>
+        <key>Fishing (fishing)</key>
+        <string/>
+        <key>Fitness &amp; Instruction (fitness)</key>
+        <dict>
+            <key>Barre Classes (barreclasses)</key>
+            <string/>
+            <key>Boot Camps (bootcamps)</key>
+            <string/>
+            <key>Boxing (boxing)</key>
+            <string/>
+            <key>Dance Studios (dancestudio)</key>
+            <string/>
+            <key>Gyms (gyms)</key>
+            <string/>
+            <key>Martial Arts (martialarts)</key>
+            <string/>
+            <key>Meditation Centers (meditationcenters)</key>
+            <string/>
+            <key>Pilates (pilates)</key>
+            <string/>
+            <key>Swimming Lessons/Schools (swimminglessons)</key>
+            <string/>
+            <key>Tai Chi (taichi)</key>
+            <string/>
+            <key>Trainers (healthtrainers)</key>
+            <string/>
+            <key>Yoga (yoga)</key>
+            <string/>
+        </dict>
+        <key>Go Karts (gokarts)</key>
+        <string/>
+        <key>Golf (golf)</key>
+        <string/>
+        <key>Gun/Rifle Ranges (gun_ranges)</key>
+        <string/>
+        <key>Gymnastics (gymnastics)</key>
+        <string/>
+        <key>Hang Gliding (hanggliding)</key>
+        <string/>
+        <key>Hiking (hiking)</key>
+        <string/>
+        <key>Horse Racing (horseracing)</key>
+        <string/>
+        <key>Horseback Riding (horsebackriding)</key>
+        <string/>
+        <key>Hot Air Balloons (hot_air_balloons)</key>
+        <string/>
+        <key>Kiteboarding (kiteboarding)</key>
+        <string/>
+        <key>Lakes (lakes)</key>
+        <string/>
+        <key>Laser Tag (lasertag)</key>
+        <string/>
+        <key>Leisure Centers (leisure_centers)</key>
+        <string/>
+        <key>Mini Golf (mini_golf)</key>
+        <string/>
+        <key>Mountain Biking (mountainbiking)</key>
+        <string/>
+        <key>Paddleboarding (paddleboarding)</key>
+        <string/>
+        <key>Paintball (paintball)</key>
+        <string/>
+        <key>Parks (parks)</key>
+        <dict>
+            <key>Dog Parks</key>
+            <string>dog_parks</string>
+            <key>Skate Parks (skate_parks)</key>
+            <string/>
+        </dict>
+        <key>Playgrounds (playgrounds)</key>
+        <string/>
+        <key>Rafting/Kayaking (rafting)</key>
+        <string/>
+        <key>Recreation Centers (recreation)</key>
+        <string/>
+        <key>Rock Climbing (rock_climbing)</key>
+        <string/>
+        <key>Skating Rinks (skatingrinks)</key>
+        <string/>
+        <key>Skydiving (skydiving)</key>
+        <string/>
+        <key>Sledding (sledding)</key>
+        <string/>
+        <key>Soccer (football)</key>
+        <string/>
+        <key>Sports Clubs (sports_clubs)</key>
+        <string/>
+        <key>Squash (squash)</key>
+        <string/>
+        <key>Summer Camps (summer_camps)</key>
+        <string/>
+        <key>Surfing (surfing)</key>
+        <string/>
+        <key>Swimming Pools (swimmingpools)</key>
+        <string/>
+        <key>Tennis (tennis)</key>
+        <string/>
+        <key>Trampoline Parks (trampoline)</key>
+        <string/>
+        <key>Tubing (tubing)</key>
+        <string/>
+        <key>Zoos (zoos)</key>
+        <string/>
+    </dict>
+    <key>Arts &amp; Entertainment (arts)</key>
+    <dict>
+        <key>Arcades (arcades)</key>
+        <string/>
+        <key>Art Galleries (galleries)</key>
+        <string/>
+        <key>Botanical Gardens (gardens)</key>
+        <string/>
+        <key>Cabaret (cabaret)</key>
+        <string/>
+        <key>Casinos (casinos)</key>
+        <string/>
+        <key>Cinema (movietheaters)</key>
+        <string/>
+        <key>Cultural Center (culturalcenter)</key>
+        <string/>
+        <key>Festivals (festivals)</key>
+        <string/>
+        <key>Jazz &amp; Blues (jazzandblues)</key>
+        <string/>
+        <key>Museums (museums)</key>
+        <string/>
+        <key>Music Venues (musicvenues)</key>
+        <string/>
+        <key>Opera &amp; Ballet (opera)</key>
+        <string/>
+        <key>Performing Arts (theater)</key>
+        <string/>
+        <key>Professional Sports Teams (sportsteams)</key>
+        <string/>
+        <key>Psychics &amp; Astrologers (psychic_astrology)</key>
+        <string/>
+        <key>Race Tracks (racetracks)</key>
+        <string/>
+        <key>Social Clubs (social_clubs)</key>
+        <string/>
+        <key>Stadiums &amp; Arenas (stadiumsarenas)</key>
+        <string/>
+        <key>Ticket Sales (ticketsales)</key>
+        <string/>
+        <key>Wineries (wineries)</key>
+        <string/>
+    </dict>
+    <key>Automotive (auto)</key>
+    <dict>
+        <key>Aircraft Dealers (aircraftdealers)</key>
+        <string/>
+        <key>Auto Customization (autocustomization)</key>
+        <string/>
+        <key>Auto Detailing (auto_detailing)</key>
+        <string/>
+        <key>Auto Glass Services (autoglass)</key>
+        <string/>
+        <key>Auto Loan Providers (autoloanproviders)</key>
+        <string/>
+        <key>Auto Parts &amp; Supplies (autopartssupplies)</key>
+        <string/>
+        <key>Auto Repair (autorepair)</key>
+        <string/>
+        <key>Boat Dealers (boatdealers)</key>
+        <string/>
+        <key>Body Shops (bodyshops)</key>
+        <string/>
+        <key>Car Dealers (car_dealers)</key>
+        <string/>
+        <key>Car Stereo Installation (stereo_installation)</key>
+        <string/>
+        <key>Car Wash (carwash)</key>
+        <string/>
+        <key>Gas &amp; Service Stations (servicestations)</key>
+        <string/>
+        <key>Motorcycle Dealers (motorcycledealers)</key>
+        <string/>
+        <key>Motorcycle Repair (motorcyclerepair)</key>
+        <string/>
+        <key>Oil Change Stations (oilchange)</key>
+        <string/>
+        <key>Parking (parking)</key>
+        <string/>
+        <key>RV Dealers (rv_dealers)</key>
+        <string/>
+        <key>Registration Services (registrationservices)</key>
+        <string/>
+        <key>Smog Check Stations (smog_check_stations)</key>
+        <string/>
+        <key>Tires (tires)</key>
+        <string/>
+        <key>Towing (towing)</key>
+        <string/>
+        <key>Truck Rental (truck_rental)</key>
+        <string/>
+        <key>Wheel &amp; Rim Repair (wheelrimrepair)</key>
+        <string/>
+        <key>Windshield Installation &amp; Repair (windshieldinstallrepair)</key>
+        <string/>
+    </dict>
+    <key>Beauty &amp; Spas (beautysvc)</key>
+    <dict>
+        <key>Barbers (barbers)</key>
+        <string/>
+        <key>Cosmetics &amp; Beauty Supply (cosmetics)</key>
+        <string/>
+        <key>Day Spas (spas)</key>
+        <string/>
+        <key>Eyelash Service (eyelashservice)</key>
+        <string/>
+        <key>Hair Extensions (hair_extensions)</key>
+        <string/>
+        <key>Hair Removal (hairremoval)</key>
+        <dict>
+            <key>Laser Hair Removal (laser_hair_removal)</key>
+            <string/>
+        </dict>
+        <key>Hair Salons (hair)</key>
+        <dict>
+            <key>Blow Dry/Out Services (blowoutservices)</key>
+            <string/>
+            <key>Hair Extensions (hair_extensions)</key>
+            <string/>
+            <key>Hair Stylists (hairstylists)</key>
+            <string/>
+            <key>Men's Hair Salons (menshair)</key>
+            <string/>
+        </dict>
+        <key>Makeup Artists (makeupartists)</key>
+        <string/>
+        <key>Massage (massage)</key>
+        <string/>
+        <key>Medical Spas (medicalspa)</key>
+        <string/>
+        <key>Nail Salons (othersalons)</key>
+        <string/>
+        <key>Permanent Makeup (permanentmakeup)</key>
+        <string/>
+        <key>Piercing (piercing)</key>
+        <string/>
+        <key>Rolfing (rolfing)</key>
+        <string/>
+        <key>Skin Care (skincare)</key>
+        <string/>
+        <key>Tanning (tanning)</key>
+        <dict>
+            <key>Spray Tanning (spraytanning)</key>
+            <string/>
+            <key>Tanning Beds (tanningbeds)</key>
+            <string/>
+        </dict>
+        <key>Tattoo (tattoo)</key>
+        <string/>
+    </dict>
+    <key>Education (education)</key>
+    <dict>
+        <key>Adult Education (adultedu)</key>
+        <string/>
+        <key>Art Classes (artclasses)</key>
+        <string/>
+        <key>College Counseling (collegecounseling)</key>
+        <string/>
+        <key>Colleges &amp; Universities (collegeuniv)</key>
+        <string/>
+        <key>Educational Services (educationservices)</key>
+        <string/>
+        <key>Elementary Schools (elementaryschools)</key>
+        <string/>
+        <key>Middle Schools &amp; High Schools (highschools)</key>
+        <string/>
+        <key>Preschools (preschools)</key>
+        <string/>
+        <key>Private Tutors (privatetutors)</key>
+        <string/>
+        <key>Religious Schools (religiousschools)</key>
+        <string/>
+        <key>Special Education (specialed)</key>
+        <string/>
+        <key>Specialty Schools (specialtyschools)</key>
+        <dict>
+            <key>Art Schools (artschools)</key>
+            <string/>
+            <key>CPR Classes (cprclasses)</key>
+            <string/>
+            <key>Cooking Schools (cookingschools)</key>
+            <string/>
+            <key>Cosmetology Schools (cosmetology_schools)</key>
+            <string/>
+            <key>Dance Schools (dance_schools)</key>
+            <string/>
+            <key>Driving Schools (driving_schools)</key>
+            <string/>
+            <key>First Aid Classes (firstaidclasses)</key>
+            <string/>
+            <key>Flight Instruction (flightinstruction)</key>
+            <string/>
+            <key>Food Safety Training (foodsafety)</key>
+            <string/>
+            <key>Language Schools (language_schools)</key>
+            <string/>
+            <key>Massage Schools (massage_schools)</key>
+            <string/>
+            <key>Swimming Lessons/Schools (swimminglessons)</key>
+            <string/>
+            <key>Vocational &amp; Technical School (vocation)</key>
+            <string/>
+        </dict>
+        <key>Test Preparation (testprep)</key>
+        <string/>
+        <key>Tutoring Centers (tutoring)</key>
+        <string/>
+    </dict>
+    <key>Event Planning &amp; Services (eventservices)</key>
+    <dict>
+        <key>Bartenders (bartenders)</key>
+        <string/>
+        <key>Boat Charters (boatcharters)</key>
+        <string/>
+        <key>Cards &amp; Stationery (stationery)</key>
+        <string/>
+        <key>Caterers (catering)</key>
+        <string/>
+        <key>Clowns (clowns)</key>
+        <string/>
+        <key>DJs (djs)</key>
+        <string/>
+        <key>Hotels (hotels)</key>
+        <string/>
+        <key>Magicians (magicians)</key>
+        <string/>
+        <key>Musicians (musicians)</key>
+        <string/>
+        <key>Officiants (officiants)</key>
+        <string/>
+        <key>Party &amp; Event Planning (eventplanning)</key>
+        <string/>
+        <key>Party Bus Rentals (partybusrentals)</key>
+        <string/>
+        <key>Party Equipment Rentals (partyequipmentrentals)</key>
+        <string/>
+        <key>Party Supplies (partysupplies)</key>
+        <string/>
+        <key>Personal Chefs (personalchefs)</key>
+        <string/>
+        <key>Photo Booth Rentals (photoboothrentals)</key>
+        <string/>
+        <key>Photographers (photographers)</key>
+        <dict>
+            <key>Event Photography (eventphotography)</key>
+            <string/>
+            <key>Session Photography (sessionphotography)</key>
+            <string/>
+        </dict>
+        <key>Venues &amp; Event Spaces (venues)</key>
+        <string/>
+        <key>Videographers (videographers)</key>
+        <string/>
+        <key>Wedding Planning (wedding_planning)</key>
+        <string/>
+    </dict>
+    <key>Financial Services (financialservices)</key>
+    <dict>
+        <key>Banks &amp; Credit Unions (banks)</key>
+        <string/>
+        <key>Check Cashing/Pay-day Loans (paydayloans)</key>
+        <string/>
+        <key>Financial Advising (financialadvising)</key>
+        <string/>
+        <key>Insurance (insurance)</key>
+        <string/>
+        <key>Investing (investing)</key>
+        <string/>
+        <key>Tax Services (taxservices)</key>
+        <string/>
+    </dict>
+    <key>Food (food)</key>
+    <dict>
+        <key>Bagels (bagels)</key>
+        <string/>
+        <key>Bakeries (bakeries)</key>
+        <string/>
+        <key>Beer, Wine &amp; Spirits (beer_and_wine)</key>
+        <string/>
+        <key>Breweries (breweries)</key>
+        <string/>
+        <key>Bubble Tea (bubbletea)</key>
+        <string/>
+        <key>Butcher (butcher)</key>
+        <string/>
+        <key>CSA (csa)</key>
+        <string/>
+        <key>Coffee &amp; Tea (coffee)</key>
+        <string/>
+        <key>Convenience Stores (convenience)</key>
+        <string/>
+        <key>Cupcakes (cupcakes)</key>
+        <string/>
+        <key>Desserts (desserts)</key>
+        <string/>
+        <key>Distilleries (distilleries)</key>
+        <string/>
+        <key>Do-It-Yourself Food (diyfood)</key>
+        <string/>
+        <key>Donuts (donuts)</key>
+        <string/>
+        <key>Farmers Market (farmersmarket)</key>
+        <string/>
+        <key>Food Delivery Services (fooddeliveryservices)</key>
+        <string/>
+        <key>Food Trucks (foodtrucks)</key>
+        <string/>
+        <key>Gelato (gelato)</key>
+        <string/>
+        <key>Grocery (grocery)</key>
+        <string/>
+        <key>Ice Cream &amp; Frozen Yogurt (icecream)</key>
+        <string/>
+        <key>Internet Cafes (internetcafe)</key>
+        <string/>
+        <key>Juice Bars &amp; Smoothies (juicebars)</key>
+        <string/>
+        <key>Pretzels (pretzels)</key>
+        <string/>
+        <key>Shaved Ice (shavedice)</key>
+        <string/>
+        <key>Specialty Food (gourmet)</key>
+        <dict>
+            <key>Candy Stores (candy)</key>
+            <string/>
+            <key>Cheese Shops (cheese)</key>
+            <string/>
+            <key>Chocolatiers &amp; Shops (chocolate)</key>
+            <string/>
+            <key>Ethnic Food (ethnicmarkets)</key>
+            <string/>
+            <key>Fruits &amp; Veggies (markets)</key>
+            <string/>
+            <key>Health Markets (healthmarkets)</key>
+            <string/>
+            <key>Herbs &amp; Spices (herbsandspices)</key>
+            <string/>
+            <key>Meat Shops (meats)</key>
+            <string/>
+            <key>Seafood Markets (seafoodmarkets)</key>
+            <string/>
+        </dict>
+        <key>Street Vendors (streetvendors)</key>
+        <string/>
+        <key>Tea Rooms (tea)</key>
+        <string/>
+        <key>Wineries (wineries)</key>
+        <string/>
+    </dict>
+    <key>Health &amp; Medical (health)</key>
+    <dict>
+        <key>Acupuncture (acupuncture)</key>
+        <string/>
+        <key>Cannabis Clinics (cannabis_clinics)</key>
+        <string/>
+        <key>Chiropractors (chiropractors)</key>
+        <string/>
+        <key>Counseling &amp; Mental Health (c_and_mh)</key>
+        <dict>
+            <key>Psychologists (psychologists)</key>
+            <string/>
+        </dict>
+        <key>Dentists (dentists)</key>
+        <dict>
+            <key>Cosmetic Dentists (cosmeticdentists)</key>
+            <string/>
+            <key>Endodontists (endodontists)</key>
+            <string/>
+            <key>General Dentistry (generaldentistry)</key>
+            <string/>
+            <key>Oral Surgeons (oralsurgeons)</key>
+            <string/>
+            <key>Orthodontists (orthodontists)</key>
+            <string/>
+            <key>Pediatric Dentists (pediatric_dentists)</key>
+            <string/>
+            <key>Periodontists (periodontists)</key>
+            <string/>
+        </dict>
+        <key>Diagnostic Services (diagnosticservices)</key>
+        <dict>
+            <key>Diagnostic Imaging (diagnosticimaging)</key>
+            <string/>
+            <key>Laboratory Testing (laboratorytesting)</key>
+            <string/>
+        </dict>
+        <key>Doctors (physicians)</key>
+        <dict>
+            <key>Allergists (allergist)</key>
+            <string/>
+            <key>Anesthesiologists (anesthesiologists)</key>
+            <string/>
+            <key>Audiologist (audiologist)</key>
+            <string/>
+            <key>Cardiologists (cardiology)</key>
+            <string/>
+            <key>Cosmetic Surgeons (cosmeticsurgeons)</key>
+            <string/>
+            <key>Dermatologists (dermatology)</key>
+            <string/>
+            <key>Ear Nose &amp; Throat (earnosethroat)</key>
+            <string/>
+            <key>Family Practice (familydr)</key>
+            <string/>
+            <key>Fertility (fertility)</key>
+            <string/>
+            <key>Gastroenterologist (gastroenterologist)</key>
+            <string/>
+            <key>Gerontologists (gerontologist)</key>
+            <string/>
+            <key>Internal Medicine (internalmed)</key>
+            <string/>
+            <key>Naturopathic/Holistic (naturopathic)</key>
+            <string/>
+            <key>Neurologist (neurologist)</key>
+            <string/>
+            <key>Obstetricians &amp; Gynecologists (obgyn)</key>
+            <string/>
+            <key>Oncologist (oncologist)</key>
+            <string/>
+            <key>Ophthalmologists (opthamalogists)</key>
+            <string/>
+            <key>Orthopedists (orthopedists)</key>
+            <string/>
+            <key>Osteopathic Physicians (osteopathicphysicians)</key>
+            <string/>
+            <key>Pediatricians (pediatricians)</key>
+            <string/>
+            <key>Podiatrists (podiatrists)</key>
+            <string/>
+            <key>Proctologists (proctologist)</key>
+            <string/>
+            <key>Psychiatrists (psychiatrists)</key>
+            <string/>
+            <key>Pulmonologist (pulmonologist)</key>
+            <string/>
+            <key>Sports Medicine (sportsmed)</key>
+            <string/>
+            <key>Tattoo Removal (tattooremoval)</key>
+            <string/>
+            <key>Urologists (urologists)</key>
+            <string/>
+        </dict>
+        <key>Doulas (doulas)</key>
+        <string/>
+        <key>Emergency Rooms (emergencyrooms)</key>
+        <string/>
+        <key>Hearing Aid Providers (hearingaidproviders)</key>
+        <string/>
+        <key>Home Health Care (homehealthcare)</key>
+        <string/>
+        <key>Hospice (hospice)</key>
+        <string/>
+        <key>Hospitals (hospitals)</key>
+        <string/>
+        <key>Hypnosis/Hypnotherapy (hypnosis)</key>
+        <string/>
+        <key>Lactation Services (lactationservices)</key>
+        <string/>
+        <key>Laser Eye Surgery/Lasik (laserlasikeyes)</key>
+        <string/>
+        <key>Lice Services (liceservices)</key>
+        <string/>
+        <key>Massage Therapy (massage_therapy)</key>
+        <string/>
+        <key>Medical Centers (medcenters)</key>
+        <string/>
+        <key>Medical Spas (medicalspa)</key>
+        <string/>
+        <key>Medical Transportation (medicaltransportation)</key>
+        <string/>
+        <key>Midwives (midwives)</key>
+        <string/>
+        <key>Nutritionists (nutritionists)</key>
+        <string/>
+        <key>Occupational Therapy (occupationaltherapy)</key>
+        <string/>
+        <key>Optometrists (optometrists)</key>
+        <string/>
+        <key>Physical Therapy (physicaltherapy)</key>
+        <string/>
+        <key>Reflexology (reflexology)</key>
+        <string/>
+        <key>Rehabilitation Center (rehabilitation_center)</key>
+        <string/>
+        <key>Reiki (reiki)</key>
+        <string/>
+        <key>Retirement Homes (retirement_homes)</key>
+        <string/>
+        <key>Speech Therapists (speech_therapists)</key>
+        <string/>
+        <key>Traditional Chinese Medicine (tcm)</key>
+        <string/>
+        <key>Urgent Care (urgent_care)</key>
+        <string/>
+        <key>Weight Loss Centers (weightlosscenters)</key>
+        <string/>
+    </dict>
+    <key>Home Services (homeservices)</key>
+    <dict>
+        <key>Building Supplies (buildingsupplies)</key>
+        <string/>
+        <key>Cabinetry (cabinetry)</key>
+        <string/>
+        <key>Carpet Installation (carpetinstallation)</key>
+        <string/>
+        <key>Carpeting (carpeting)</key>
+        <string/>
+        <key>Chimney Sweeps (chimneysweeps)</key>
+        <string/>
+        <key>Contractors (contractors)</key>
+        <string/>
+        <key>Damage Restoration (damagerestoration)</key>
+        <string/>
+        <key>Door Sales/Installation (doorsales)</key>
+        <string/>
+        <key>Drywall Installation &amp; Repair (drywall)</key>
+        <string/>
+        <key>Electricians (electricians)</key>
+        <string/>
+        <key>Fences &amp; Gates (fencesgates)</key>
+        <string/>
+        <key>Flooring (flooring)</key>
+        <string/>
+        <key>Garage Door Services (garage_door_services)</key>
+        <string/>
+        <key>Gardeners (gardeners)</key>
+        <string/>
+        <key>Glass &amp; Mirrors (glassandmirrors)</key>
+        <string/>
+        <key>Gutter Services (gutterservices)</key>
+        <string/>
+        <key>Handyman (handyman)</key>
+        <string/>
+        <key>Heating &amp; Air Conditioning/HVAC (hvac)</key>
+        <string/>
+        <key>Home Cleaning (homecleaning)</key>
+        <string/>
+        <key>Home Inspectors (home_inspectors)</key>
+        <string/>
+        <key>Home Organization (home_organization)</key>
+        <string/>
+        <key>Home Theatre Installation (hometheatreinstallation)</key>
+        <string/>
+        <key>Home Window Tinting (homewindowtinting)</key>
+        <string/>
+        <key>Interior Design (interiordesign)</key>
+        <string/>
+        <key>Internet Service Providers (isps)</key>
+        <string/>
+        <key>Irrigation (irrigation)</key>
+        <string/>
+        <key>Keys &amp; Locksmiths (locksmiths)</key>
+        <string/>
+        <key>Landscape Architects (landscapearchitects)</key>
+        <string/>
+        <key>Landscaping (landscaping)</key>
+        <string/>
+        <key>Lighting Fixtures &amp; Equipment (lighting)</key>
+        <string/>
+        <key>Masonry/Concrete (masonry_concrete)</key>
+        <string/>
+        <key>Movers (movers)</key>
+        <string/>
+        <key>Painters (painters)</key>
+        <string/>
+        <key>Plumbing (plumbing)</key>
+        <string/>
+        <key>Pool Cleaners (poolcleaners)</key>
+        <string/>
+        <key>Pressure Washers (pressurewashers)</key>
+        <string/>
+        <key>Real Estate (realestate)</key>
+        <dict>
+            <key>Apartments (apartments)</key>
+            <string/>
+            <key>Commercial Real Estate (commercialrealestate)</key>
+            <string/>
+            <key>Home Staging (homestaging)</key>
+            <string/>
+            <key>Mortgage Brokers (mortgagebrokers)</key>
+            <string/>
+            <key>Property Management (propertymgmt)</key>
+            <string/>
+            <key>Real Estate Agents (realestateagents)</key>
+            <string/>
+            <key>Real Estate Services (realestatesvcs)</key>
+            <string/>
+            <key>Shared Office Spaces (sharedofficespaces)</key>
+            <string/>
+            <key>University Housing (university_housing)</key>
+            <string/>
+        </dict>
+        <key>Roofing (roofing)</key>
+        <string/>
+        <key>Security Systems (securitysystems)</key>
+        <string/>
+        <key>Shades &amp; Blinds (blinds)</key>
+        <string/>
+        <key>Solar Installation (solarinstallation)</key>
+        <string/>
+        <key>Structural Engineers (structuralengineers)</key>
+        <string/>
+        <key>Television Service Providers (televisionserviceproviders)</key>
+        <string/>
+        <key>Tree Services (treeservices)</key>
+        <string/>
+        <key>Utilities (utilities)</key>
+        <string/>
+        <key>Window Washing (windowwashing)</key>
+        <string/>
+        <key>Windows Installation (windowsinstallation)</key>
+        <string/>
+    </dict>
+    <key>Hotels &amp; Travel (hotelstravel)</key>
+    <dict>
+        <key>Airports (airports)</key>
+        <string/>
+        <key>Bed &amp; Breakfast (bedbreakfast)</key>
+        <string/>
+        <key>Campgrounds (campgrounds)</key>
+        <string/>
+        <key>Car Rental (carrental)</key>
+        <string/>
+        <key>Guest Houses (guesthouses)</key>
+        <string/>
+        <key>Health Retreats (healthretreats)</key>
+        <string/>
+        <key>Hostels (hostels)</key>
+        <string/>
+        <key>Hotels (hotels)</key>
+        <string/>
+        <key>Motorcycle Rental (motorcycle_rental)</key>
+        <string/>
+        <key>RV Parks (rvparks)</key>
+        <string/>
+        <key>RV Rental (rvrental)</key>
+        <string/>
+        <key>Resorts (resorts)</key>
+        <string/>
+        <key>Ski Resorts (skiresorts)</key>
+        <string/>
+        <key>Tours (tours)</key>
+        <string/>
+        <key>Train Stations (trainstations)</key>
+        <string/>
+        <key>Transportation (transport)</key>
+        <dict>
+            <key>Airlines (airlines)</key>
+            <string/>
+            <key>Airport Shuttles (airport_shuttles)</key>
+            <string/>
+            <key>Limos (limos)</key>
+            <string/>
+            <key>Public Transportation (publictransport)</key>
+            <string/>
+            <key>Taxis (taxis)</key>
+            <string/>
+        </dict>
+        <key>Travel Services (travelservices)</key>
+        <string/>
+        <key>Vacation Rental Agents (vacationrentalagents)</key>
+        <string/>
+        <key>Vacation Rentals (vacation_rentals)</key>
+        <string/>
+    </dict>
+    <key>Local Flavor (localflavor)</key>
+    <dict>
+        <key>Yelp Events (yelpevents)</key>
+        <string/>
+    </dict>
+    <key>Local Services (localservices)</key>
+    <dict>
+        <key>Appliances &amp; Repair (homeappliancerepair)</key>
+        <string/>
+        <key>Bail Bondsmen (bailbondsmen)</key>
+        <string/>
+        <key>Bike Repair/Maintenance (bike_repair_maintenance)</key>
+        <string/>
+        <key>Carpet Cleaning (carpet_cleaning)</key>
+        <string/>
+        <key>Child Care &amp; Day Care (childcare)</key>
+        <string/>
+        <key>Community Service/Non-Profit (nonprofit)</key>
+        <string/>
+        <key>Couriers &amp; Delivery Services (couriers)</key>
+        <string/>
+        <key>Dry Cleaning &amp; Laundry (drycleaninglaundry)</key>
+        <string/>
+        <key>Electronics Repair (electronicsrepair)</key>
+        <string/>
+        <key>Funeral Services &amp; Cemeteries (funeralservices)</key>
+        <string/>
+        <key>Furniture Reupholstery (reupholstery)</key>
+        <string/>
+        <key>IT Services &amp; Computer Repair (itservices)</key>
+        <dict>
+            <key>Data Recovery (datarecovery)</key>
+            <string/>
+            <key>Mobile Phone Repair (mobilephonerepair)</key>
+            <string/>
+            <key>Telecommunications (telecommunications)</key>
+            <string/>
+        </dict>
+        <key>Jewelry Repair (jewelryrepair)</key>
+        <string/>
+        <key>Junk Removal &amp; Hauling (junkremovalandhauling)</key>
+        <string/>
+        <key>Metal Fabricators (metalfabricators)</key>
+        <string/>
+        <key>Nanny Services (nannys)</key>
+        <string/>
+        <key>Notaries (notaries)</key>
+        <string/>
+        <key>Pest Control (pest_control)</key>
+        <string/>
+        <key>Printing Services (copyshops)</key>
+        <string/>
+        <key>Propane (propane)</key>
+        <string/>
+        <key>Recording &amp; Rehearsal Studios (recording_studios)</key>
+        <string/>
+        <key>Recycling Center (recyclingcenter)</key>
+        <string/>
+        <key>Screen Printing (screenprinting)</key>
+        <string/>
+        <key>Screen Printing/T-Shirt Printing (screen_printing_tshirt_printing)</key>
+        <string/>
+        <key>Self Storage (selfstorage)</key>
+        <string/>
+        <key>Sewing &amp; Alterations (sewingalterations)</key>
+        <string/>
+        <key>Shipping Centers (shipping_centers)</key>
+        <string/>
+        <key>Shoe Repair (shoerepair)</key>
+        <string/>
+        <key>Snow Removal (snowremoval)</key>
+        <string/>
+        <key>Watch Repair (watch_repair)</key>
+        <string/>
+    </dict>
+    <key>Mass Media (massmedia)</key>
+    <dict>
+        <key>Print Media (printmedia)</key>
+        <string/>
+        <key>Radio Stations (radiostations)</key>
+        <string/>
+        <key>Television Stations (televisionstations)</key>
+        <string/>
+    </dict>
+    <key>Nightlife (nightlife)</key>
+    <dict>
+        <key>Adult Entertainment (adultentertainment)</key>
+        <string/>
+        <key>Bars (bars)</key>
+        <dict>
+            <key>Champagne Bars (champagne_bars)</key>
+            <string/>
+            <key>Cocktail Bars (cocktailbars)</key>
+            <string/>
+            <key>Dive Bars (divebars)</key>
+            <string/>
+            <key>Gay Bars (gaybars)</key>
+            <string/>
+            <key>Hookah Bars (hookah_bars)</key>
+            <string/>
+            <key>Lounges (lounges)</key>
+            <string/>
+            <key>Pubs (pubs)</key>
+            <string/>
+            <key>Sports Bars (sportsbars)</key>
+            <string/>
+            <key>Wine Bars (wine_bars)</key>
+            <string/>
+        </dict>
+        <key>Comedy Clubs (comedyclubs)</key>
+        <string/>
+        <key>Country Dance Halls (countrydancehalls)</key>
+        <string/>
+        <key>Dance Clubs (danceclubs)</key>
+        <string/>
+        <key>Jazz &amp; Blues (jazzandblues)</key>
+        <string/>
+        <key>Karaoke (karaoke)</key>
+        <string/>
+        <key>Music Venues (musicvenues)</key>
+        <string/>
+        <key>Piano Bars (pianobars)</key>
+        <string/>
+        <key>Pool Halls (poolhalls)</key>
+        <string/>
+    </dict>
+    <key>Pets (pets)</key>
+    <dict>
+        <key>Animal Shelters (animalshelters)</key>
+        <string/>
+        <key>Horse Boarding (horse_boarding)</key>
+        <string/>
+        <key>Pet Adoption (petadoption)</key>
+        <string/>
+        <key>Pet Services (petservices)</key>
+        <dict>
+            <key>Aquarium Services (aquariumservices)</key>
+            <string/>
+            <key>Dog Walkers (dogwalkers)</key>
+            <string/>
+            <key>Pet Boarding/Pet Sitting (pet_sitting)</key>
+            <string/>
+            <key>Pet Groomers (groomer)</key>
+            <string/>
+            <key>Pet Training (pet_training)</key>
+            <string/>
+        </dict>
+        <key>Pet Stores (petstore)</key>
+        <string/>
+        <key>Veterinarians (vet)</key>
+        <string/>
+    </dict>
+    <key>Professional Services (professional)</key>
+    <dict>
+        <key>Accountants (accountants)</key>
+        <string/>
+        <key>Advertising (advertising)</key>
+        <string/>
+        <key>Architects (architects)</key>
+        <string/>
+        <key>Boat Repair (boatrepair)</key>
+        <string/>
+        <key>Career Counseling (careercounseling)</key>
+        <string/>
+        <key>Editorial Services (editorialservices)</key>
+        <string/>
+        <key>Employment Agencies (employmentagencies)</key>
+        <string/>
+        <key>Graphic Design (graphicdesign)</key>
+        <string/>
+        <key>Internet Service Providers (isps)</key>
+        <string/>
+        <key>Lawyers (lawyers)</key>
+        <dict>
+            <key>Bankruptcy Law (bankruptcy)</key>
+            <string/>
+            <key>Business Law (businesslawyers)</key>
+            <string/>
+            <key>Criminal Defense Law (criminaldefense)</key>
+            <string/>
+            <key>DUI Law (duilawyers)</key>
+            <string/>
+            <key>Divorce &amp; Family Law (divorce)</key>
+            <string/>
+            <key>Employment Law (employmentlawyers)</key>
+            <string/>
+            <key>Estate Planning Law (estateplanning)</key>
+            <string/>
+            <key>General Litigation (general_litigation)</key>
+            <string/>
+            <key>Immigration Law (immigrationlawyers)</key>
+            <string/>
+            <key>Personal Injury Law (personal_injury)</key>
+            <string/>
+            <key>Real Estate Law (realestatelawyers)</key>
+            <string/>
+            <key>Tax Law (taxlaw)</key>
+            <string/>
+        </dict>
+        <key>Legal Services (legalservices)</key>
+        <string/>
+        <key>Life Coach (lifecoach)</key>
+        <string/>
+        <key>Marketing (marketing)</key>
+        <string/>
+        <key>Matchmakers (matchmakers)</key>
+        <string/>
+        <key>Office Cleaning (officecleaning)</key>
+        <string/>
+        <key>Payroll Services (payroll)</key>
+        <string/>
+        <key>Personal Assistants (personalassistants)</key>
+        <string/>
+        <key>Private Investigation (privateinvestigation)</key>
+        <string/>
+        <key>Public Relations (publicrelations)</key>
+        <string/>
+        <key>Signmaking (signmaking)</key>
+        <string/>
+        <key>Talent Agencies (talentagencies)</key>
+        <string/>
+        <key>Taxidermy (taxidermy)</key>
+        <string/>
+        <key>Translation Services (translationservices)</key>
+        <string/>
+        <key>Video/Film Production (videofilmproductions)</key>
+        <string/>
+        <key>Web Design (web_design)</key>
+        <string/>
+    </dict>
+    <key>Public Services &amp; Government (publicservicesgovt)</key>
+    <dict>
+        <key>Courthouses (courthouses)</key>
+        <string/>
+        <key>Departments of Motor Vehicles (departmentsofmotorvehicles)</key>
+        <string/>
+        <key>Embassy (embassy)</key>
+        <string/>
+        <key>Fire Departments (firedepartments)</key>
+        <string/>
+        <key>Landmarks &amp; Historical Buildings (landmarks)</key>
+        <string/>
+        <key>Libraries (libraries)</key>
+        <string/>
+        <key>Police Departments (policedepartments)</key>
+        <string/>
+        <key>Post Offices (postoffices)</key>
+        <string/>
+    </dict>
+    <key>Real Estate (realestate)</key>
+    <dict>
+        <key>Apartments (apartments)</key>
+        <string/>
+        <key>Commercial Real Estate (commercialrealestate)</key>
+        <string/>
+        <key>Home Staging (homestaging)</key>
+        <string/>
+        <key>Mortgage Brokers (mortgagebrokers)</key>
+        <string/>
+        <key>Property Management (propertymgmt)</key>
+        <string/>
+        <key>Real Estate Agents (realestateagents)</key>
+        <string/>
+        <key>Real Estate Services (realestatesvcs)</key>
+        <string/>
+        <key>Shared Office Spaces (sharedofficespaces)</key>
+        <string/>
+        <key>University Housing (university_housing)</key>
+        <string/>
+    </dict>
+    <key>Religious Organizations (religiousorgs)</key>
+    <dict>
+        <key>Buddhist Temples (buddhist_temples)</key>
+        <string/>
+        <key>Churches (churches)</key>
+        <string/>
+        <key>Hindu Temples (hindu_temples)</key>
+        <string/>
+        <key>Mosques (mosques)</key>
+        <string/>
+        <key>Synagogues (synagogues)</key>
+        <string/>
+    </dict>
+    <key>Restaurants (restaurants)</key>
+    <dict>
+        <key>Afghan (afghani)</key>
+        <string/>
+        <key>African (african)</key>
+        <dict>
+            <key>Senegalese (senegalese)</key>
+            <string/>
+            <key>South African (southafrican)</key>
+            <string/>
+        </dict>
+        <key>American (New) (newamerican)</key>
+        <string/>
+        <key>American (Traditional) (tradamerican)</key>
+        <string/>
+        <key>Arabian (arabian)</key>
+        <string/>
+        <key>Argentine (argentine)</key>
+        <string/>
+        <key>Armenian (armenian)</key>
+        <string/>
+        <key>Asian Fusion (asianfusion)</key>
+        <string/>
+        <key>Australian (australian)</key>
+        <string/>
+        <key>Austrian (austrian)</key>
+        <string/>
+        <key>Bangladeshi (bangladeshi)</key>
+        <string/>
+        <key>Barbeque (bbq)</key>
+        <string/>
+        <key>Basque (basque)</key>
+        <string/>
+        <key>Belgian (belgian)</key>
+        <string/>
+        <key>Brasseries (brasseries)</key>
+        <string/>
+        <key>Brazilian (brazilian)</key>
+        <string/>
+        <key>Breakfast &amp; Brunch (breakfast_brunch)</key>
+        <string/>
+        <key>British (british)</key>
+        <string/>
+        <key>Buffets (buffets)</key>
+        <string/>
+        <key>Burgers (burgers)</key>
+        <string/>
+        <key>Burmese (burmese)</key>
+        <string/>
+        <key>Cafes (cafes)</key>
+        <string/>
+        <key>Cafeteria (cafeteria)</key>
+        <string/>
+        <key>Cajun/Creole (cajun)</key>
+        <string/>
+        <key>Cambodian (cambodian)</key>
+        <string/>
+        <key>Caribbean (caribbean)</key>
+        <dict>
+            <key>Dominican (dominican)</key>
+            <string/>
+            <key>Haitian (haitian)</key>
+            <string/>
+            <key>Puerto Rican (puertorican)</key>
+            <string/>
+            <key>Trinidadian (trinidadian)</key>
+            <string/>
+        </dict>
+        <key>Catalan (catalan)</key>
+        <string/>
+        <key>Cheesesteaks (cheesesteaks)</key>
+        <string/>
+        <key>Chicken Wings (chicken_wings)</key>
+        <string/>
+        <key>Chinese (chinese)</key>
+        <dict>
+            <key>Cantonese (cantonese)</key>
+            <string/>
+            <key>Dim Sum (dimsum)</key>
+            <string/>
+            <key>Shanghainese (shanghainese)</key>
+            <string/>
+            <key>Szechuan (szechuan)</key>
+            <string/>
+        </dict>
+        <key>Comfort Food (comfortfood)</key>
+        <string/>
+        <key>Creperies (creperies)</key>
+        <string/>
+        <key>Cuban (cuban)</key>
+        <string/>
+        <key>Czech (czech)</key>
+        <string/>
+        <key>Delis (delis)</key>
+        <string/>
+        <key>Diners (diners)</key>
+        <string/>
+        <key>Ethiopian (ethiopian)</key>
+        <string/>
+        <key>Fast Food (hotdogs)</key>
+        <string/>
+        <key>Filipino (filipino)</key>
+        <string/>
+        <key>Fish &amp; Chips (fishnchips)</key>
+        <string/>
+        <key>Fondue (fondue)</key>
+        <string/>
+        <key>Food Court (food_court)</key>
+        <string/>
+        <key>Food Stands (foodstands)</key>
+        <string/>
+        <key>French (french)</key>
+        <string/>
+        <key>Gastropubs (gastropubs)</key>
+        <string/>
+        <key>German (german)</key>
+        <string/>
+        <key>Gluten-Free (gluten_free)</key>
+        <string/>
+        <key>Greek (greek)</key>
+        <string/>
+        <key>Halal (halal)</key>
+        <string/>
+        <key>Hawaiian (hawaiian)</key>
+        <string/>
+        <key>Himalayan/Nepalese (himalayan)</key>
+        <string/>
+        <key>Hot Dogs (hotdog)</key>
+        <string/>
+        <key>Hot Pot (hotpot)</key>
+        <string/>
+        <key>Hungarian (hungarian)</key>
+        <string/>
+        <key>Iberian (iberian)</key>
+        <string/>
+        <key>Indian (indpak)</key>
+        <string/>
+        <key>Indonesian (indonesian)</key>
+        <string/>
+        <key>Irish (irish)</key>
+        <string/>
+        <key>Italian (italian)</key>
+        <string/>
+        <key>Japanese (japanese)</key>
+        <string/>
+        <key>Korean (korean)</key>
+        <string/>
+        <key>Kosher (kosher)</key>
+        <string/>
+        <key>Laotian (laotian)</key>
+        <string/>
+        <key>Latin American (latin)</key>
+        <dict>
+            <key>Colombian (colombian)</key>
+            <string/>
+            <key>Salvadoran (salvadoran)</key>
+            <string/>
+            <key>Venezuelan (venezuelan)</key>
+            <string/>
+        </dict>
+        <key>Live/Raw Food (raw_food)</key>
+        <string/>
+        <key>Malaysian (malaysian)</key>
+        <string/>
+        <key>Mediterranean (mediterranean)</key>
+        <dict>
+            <key>Falafel (falafel)</key>
+            <string/>
+        </dict>
+        <key>Mexican (mexican)</key>
+        <string/>
+        <key>Middle Eastern (mideastern)</key>
+        <dict>
+            <key>Egyptian (egyptian)</key>
+            <string/>
+            <key>Lebanese (lebanese)</key>
+            <string/>
+        </dict>
+        <key>Modern European (modern_european)</key>
+        <string/>
+        <key>Mongolian (mongolian)</key>
+        <string/>
+        <key>Moroccan (moroccan)</key>
+        <string/>
+        <key>Pakistani (pakistani)</key>
+        <string/>
+        <key>Persian/Iranian (persian)</key>
+        <string/>
+        <key>Peruvian (peruvian)</key>
+        <string/>
+        <key>Pizza (pizza)</key>
+        <string/>
+        <key>Polish (polish)</key>
+        <string/>
+        <key>Portuguese (portuguese)</key>
+        <string/>
+        <key>Russian (russian)</key>
+        <string/>
+        <key>Salad (salad)</key>
+        <string/>
+        <key>Sandwiches (sandwiches)</key>
+        <string/>
+        <key>Scandinavian (scandinavian)</key>
+        <string/>
+        <key>Scottish (scottish)</key>
+        <string/>
+        <key>Seafood (seafood)</key>
+        <string/>
+        <key>Singaporean (singaporean)</key>
+        <string/>
+        <key>Slovakian (slovakian)</key>
+        <string/>
+        <key>Soul Food (soulfood)</key>
+        <string/>
+        <key>Soup (soup)</key>
+        <string/>
+        <key>Southern (southern)</key>
+        <string/>
+        <key>Spanish (spanish)</key>
+        <string/>
+        <key>Steakhouses (steak)</key>
+        <string/>
+        <key>Sushi Bars (sushi)</key>
+        <string/>
+        <key>Taiwanese (taiwanese)</key>
+        <string/>
+        <key>Tapas Bars (tapas)</key>
+        <string/>
+        <key>Tapas/Small Plates (tapasmallplates)</key>
+        <string/>
+        <key>Tex-Mex (tex-mex)</key>
+        <string/>
+        <key>Thai (thai)</key>
+        <string/>
+        <key>Turkish (turkish)</key>
+        <string/>
+        <key>Ukrainian (ukrainian)</key>
+        <string/>
+        <key>Vegan (vegan)</key>
+        <string/>
+        <key>Vegetarian (vegetarian)</key>
+        <string/>
+        <key>Vietnamese (vietnamese)</key>
+        <string/>
+    </dict>
+    <key>Shopping (shopping)</key>
+    <dict>
+        <key>Adult (adult)</key>
+        <string/>
+        <key>Antiques (antiques)</key>
+        <string/>
+        <key>Art Galleries (galleries)</key>
+        <string/>
+        <key>Arts &amp; Crafts (artsandcrafts)</key>
+        <dict>
+            <key>Art Supplies (artsupplies)</key>
+            <string/>
+            <key>Cards &amp; Stationery (stationery)</key>
+            <string/>
+            <key>Costumes (costumes)</key>
+            <string/>
+            <key>Embroidery &amp; Crochet (embroideryandcrochet)</key>
+            <string/>
+            <key>Fabric Stores (fabricstores)</key>
+            <string/>
+            <key>Framing (framing)</key>
+            <string/>
+        </dict>
+        <key>Auction Houses (auctionhouses)</key>
+        <string/>
+        <key>Baby Gear &amp; Furniture (baby_gear)</key>
+        <string/>
+        <key>Bespoke Clothing (bespoke)</key>
+        <string/>
+        <key>Books, Mags, Music &amp; Video (media)</key>
+        <dict>
+            <key>Bookstores (bookstores)</key>
+            <string/>
+            <key>Comic Books (comicbooks)</key>
+            <string/>
+            <key>Music &amp; DVDs (musicvideo)</key>
+            <string/>
+            <key>Newspapers &amp; Magazines (mags)</key>
+            <string/>
+            <key>Videos &amp; Video Game Rental (videoandgames)</key>
+            <string/>
+            <key>Vinyl Records (vinyl_records)</key>
+            <string/>
+        </dict>
+        <key>Brewing Supplies (brewingsupplies)</key>
+        <string/>
+        <key>Bridal (bridal)</key>
+        <string/>
+        <key>Computers (computers)</key>
+        <string/>
+        <key>Cosmetics &amp; Beauty Supply (cosmetics)</key>
+        <string/>
+        <key>Department Stores (deptstores)</key>
+        <string/>
+        <key>Discount Store (discountstore)</key>
+        <string/>
+        <key>Drugstores (drugstores)</key>
+        <string/>
+        <key>Electronics (electronics)</key>
+        <string/>
+        <key>Eyewear &amp; Opticians (opticians)</key>
+        <string/>
+        <key>Fashion (fashion)</key>
+        <dict>
+            <key>Accessories (accessories)</key>
+            <string/>
+            <key>Children's Clothing (childcloth)</key>
+            <string/>
+            <key>Department Stores (deptstores)</key>
+            <string/>
+            <key>Formal Wear (formalwear)</key>
+            <string/>
+            <key>Hats (hats)</key>
+            <string/>
+            <key>Leather Goods (leather)</key>
+            <string/>
+            <key>Lingerie (lingerie)</key>
+            <string/>
+            <key>Maternity Wear (maternity)</key>
+            <string/>
+            <key>Men's Clothing (menscloth)</key>
+            <string/>
+            <key>Plus Size Fashion (plus_size_fashion)</key>
+            <string/>
+            <key>Shoe Stores (shoes)</key>
+            <string/>
+            <key>Sports Wear (sportswear)</key>
+            <string/>
+            <key>Surf Shop (surfshop)</key>
+            <string/>
+            <key>Swimwear (swimwear)</key>
+            <string/>
+            <key>Used, Vintage &amp; Consignment (vintage)</key>
+            <string/>
+            <key>Women's Clothing (womenscloth)</key>
+            <string/>
+        </dict>
+        <key>Fireworks (fireworks)</key>
+        <string/>
+        <key>Flea Markets (fleamarkets)</key>
+        <string/>
+        <key>Flowers &amp; Gifts (flowers)</key>
+        <dict>
+            <key>Cards &amp; Stationery (stationery)</key>
+            <string/>
+            <key>Florists (florists)</key>
+            <string/>
+            <key>Gift Shops (giftshops)</key>
+            <string/>
+        </dict>
+        <key>Gold Buyers (goldbuyers)</key>
+        <string/>
+        <key>Golf Equipment Shops (golfshops)</key>
+        <string/>
+        <key>Guns &amp; Ammo (guns_and_ammo)</key>
+        <string/>
+        <key>Hobby Shops (hobbyshops)</key>
+        <string/>
+        <key>Home &amp; Garden (homeandgarden)</key>
+        <dict>
+            <key>Appliances (appliances)</key>
+            <string/>
+            <key>Furniture Stores (furniture)</key>
+            <string/>
+            <key>Hardware Stores (hardware)</key>
+            <string/>
+            <key>Home Decor (homedecor)</key>
+            <string/>
+            <key>Hot Tub &amp; Pool (hottubandpool)</key>
+            <string/>
+            <key>Kitchen &amp; Bath (kitchenandbath)</key>
+            <string/>
+            <key>Mattresses (mattresses)</key>
+            <string/>
+            <key>Nurseries &amp; Gardening (gardening)</key>
+            <string/>
+            <key>Rugs (rugs)</key>
+            <string/>
+        </dict>
+        <key>Jewelry (jewelry)</key>
+        <string/>
+        <key>Knitting Supplies (knittingsupplies)</key>
+        <string/>
+        <key>Luggage (luggage)</key>
+        <string/>
+        <key>Medical Supplies (medicalsupplies)</key>
+        <string/>
+        <key>Mobile Phones (mobilephones)</key>
+        <string/>
+        <key>Motorcycle Gear (motorcyclinggear)</key>
+        <string/>
+        <key>Musical Instruments &amp; Teachers (musicalinstrumentsandteachers)</key>
+        <string/>
+        <key>Office Equipment (officeequipment)</key>
+        <string/>
+        <key>Outlet Stores (outlet_stores)</key>
+        <string/>
+        <key>Pawn Shops (pawn)</key>
+        <string/>
+        <key>Personal Shopping (personal_shopping)</key>
+        <string/>
+        <key>Photography Stores &amp; Services (photographystores)</key>
+        <string/>
+        <key>Pool &amp; Billiards (poolbilliards)</key>
+        <string/>
+        <key>Pop-up Shops (popupshops)</key>
+        <string/>
+        <key>Shopping Centers (shoppingcenters)</key>
+        <string/>
+        <key>Sporting Goods (sportgoods)</key>
+        <dict>
+            <key>Bikes (bikes)</key>
+            <string/>
+            <key>Golf Equipment (golfequipment)</key>
+            <string/>
+            <key>Outdoor Gear (outdoorgear)</key>
+            <string/>
+            <key>Sports Wear (sportswear)</key>
+            <string/>
+        </dict>
+        <key>Thrift Stores (thrift_stores)</key>
+        <string/>
+        <key>Tobacco Shops (tobaccoshops)</key>
+        <string/>
+        <key>Toy Stores (toys)</key>
+        <string/>
+        <key>Trophy Shops (trophyshops)</key>
+        <string/>
+        <key>Uniforms (uniforms)</key>
+        <string/>
+        <key>Watches (watches)</key>
+        <string/>
+        <key>Wholesale Stores (wholesale_stores)</key>
+        <string/>
+        <key>Wigs (wigs)</key>
+        <string/>
+    </dict>
+</dict>
+</plist>

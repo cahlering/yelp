@@ -22,8 +22,10 @@
 @property (nonatomic, strong) NSString *photoUrl;
 @property (nonatomic, strong) NSString *ratingImageUrlSmall;
 @property (nonatomic, strong) NSNumber *reviewCount;
+@property (nonatomic, strong) NSNumber *distance;
 @property (nonatomic, strong) NSNumber *averageRating;
 @property (nonatomic, strong) NSArray *neighborhoods;
+@property (nonatomic, strong) NSArray *categories;
 
 
 @end

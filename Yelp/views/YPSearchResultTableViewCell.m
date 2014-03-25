@@ -9,6 +9,7 @@
 #import "UIImageView+AFNetworking.h"
 #import "YPSearchResultTableViewCell.h"
 #import "../models/YPSearchResultBusiness.h"
+#import "../models/YPBusinessCategory.h"
 
 @interface YPSearchResultTableViewCell()
 
@@ -46,6 +47,15 @@
     self.reviewCountLabel.text = [NSString stringWithFormat:@"%@", self.business.reviewCount];
     self.addressLabel.text = [NSString stringWithFormat:@"%@, %@", self.business.address1, self.business.city];
     self.reviewCountLabel.text = [NSString stringWithFormat:@"%@ Review%@", self.business.reviewCount, ([self.business.reviewCount intValue] != 1) ? @"s": @"" ];
+    self.priceLabel.text = @"";
+    self.distanceLabel.text = [NSString stringWithFormat:@"%0.2f mi", [self.business.distance floatValue]];
+    
+    NSMutableString *categoryString = [[NSMutableString alloc]init];
+    for (YPBusinessCategory *category in self.business.categories) {
+        if ([categoryString length] > 0) { [categoryString appendString:@", "]; }
+        [categoryString appendString:category.name];
+    }
+    self.categoryLabel.text = [NSString stringWithString:categoryString];
     
     NSURL *thumbNailUrl = [NSURL URLWithString:self.business.photoUrl];
     NSURLRequest *thumbnailRequest = [NSURLRequest requestWithURL:thumbNailUrl];

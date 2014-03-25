@@ -12,5 +12,6 @@
 @interface YPSearchFiltersViewController : UIViewController<UITableViewDelegate, UITableViewDataSource>
 
 @property (weak, nonatomic) YPFilterSettings *settings;
+@property (weak, nonatomic) NSDictionary *categories;
 
 @end
