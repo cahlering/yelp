@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "../models/YPFilterSettings.h"
 
 @interface YPSearchFiltersViewController : UIViewController<UITableViewDelegate, UITableViewDataSource>
+
+@property (weak, nonatomic) YPFilterSettings *settings;
 
 @end

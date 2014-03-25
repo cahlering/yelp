@@ -7,10 +7,11 @@
 //
 
 #import "YPSearchFiltersViewController.h"
+#import "../views/YPSwitchTableViewCell.h"
 
-enum SettingSection {
-    priceSection,
-    mostPopular,
+enum SettingSections {
+//    priceSection,
+    hasDeals,
     distance,
     sortBy,
     categories
@@ -19,10 +20,8 @@ enum SettingSection {
 @interface YPSearchFiltersViewController ()
 
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
-@property (strong, nonatomic) IBOutlet UITableViewCell *priceTableViewCell;
 @property (strong, nonatomic) IBOutlet UITableViewCell *switchTableViewCell;
-@property (strong, nonatomic) IBOutlet UITableViewCell *pickerTableViewCell;
-@property (weak, nonatomic) IBOutlet UIPickerView *pickerControl;
+@property (strong, nonatomic) NSMutableDictionary *sectionExpandedState;
 
 @end
 
@@ -32,7 +31,7 @@ enum SettingSection {
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
-        // Custom initialization
+        self.sectionExpandedState = [[NSMutableDictionary alloc]init];
     }
     return self;
 }
@@ -41,6 +40,8 @@ enum SettingSection {
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+    UINib *switchTableViewCellNib = [UINib nibWithNibName:@"YPSwitchTableViewCell" bundle:nil];
+    [[self tableView]registerNib:switchTableViewCellNib forCellReuseIdentifier:@"SwitchCell"];
 }
 
 - (void)didReceiveMemoryWarning
@@ -49,45 +50,74 @@ enum SettingSection {
     // Dispose of any resources that can be recreated.
 }
 
+- (BOOL)sectionCanExpand:(NSInteger)section
+{
+    switch (section) {
+//        case priceSection:
+//            return NO;
+        case hasDeals:
+            return NO;
+        case distance:
+            return YES;
+        case sortBy:
+            return YES;
+        case categories:
+            return YES;
+        default:
+            return NO;
+            break;
+    }
+    
+}
+
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
-    return 5;
+    return 4;
 }
 
 - (NSInteger) tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
     switch (section) {
-        case priceSection:
+//        case priceSection:
+//            return 1;
+        case hasDeals:
+        {
             return 1;
-            break;
-        case mostPopular:
-            return 2;
+        }
         case distance:
-            return 4;
+        {
+            if ([self sectionIsExpanded:section]) {
+                return 4;
+            }
+            return 1;
+        }
         case sortBy:
+        {
             return 1;
+        }
         case categories:
+        {
             return 1;
+        }
         default:
             return 0;
-            break;
     }
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     switch (indexPath.section) {
-        case priceSection:
-            return _priceTableViewCell;
-            break;
-        case mostPopular:
-            return _pickerTableViewCell;
-        case distance:
-            return _pickerTableViewCell;
-        case sortBy:
-            return _switchTableViewCell;
+//        case priceSection:
+        case hasDeals: {
+            YPSwitchTableViewCell *switchCell = [tableView dequeueReusableCellWithIdentifier:@"SwitchCell" forIndexPath:indexPath];
+            switchCell.switchControl.onTintColor = [UIColor redColor];
+            switchCell.switchControl.on = self.settings.deals;
+            switchCell.switchLabel.text = @"Has Deal";
+            return switchCell;
+        }
         case categories:
-            return _switchTableViewCell;
+        case distance:
+        case sortBy:
         default:
             break;
     }
@@ -100,10 +130,10 @@ enum SettingSection {
 - (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section
 {
     switch (section) {
-        case priceSection:
-            return @"Price";
-        case mostPopular:
-            return @"Most Popular";
+//        case priceSection:
+//            return @"Price";
+        case hasDeals:
+            return @"Deals";
         case distance:
             return @"Distance";
         case sortBy:
@@ -114,6 +144,39 @@ enum SettingSection {
             break;
     }
     return @"Filters";
+}
+
+- (BOOL) sectionIsExpanded: (NSInteger)section
+{
+    return [[self.sectionExpandedState objectForKey:[NSNumber numberWithInteger:section]]boolValue];
+}
+
+- (void) toggleSectionExpandedState: (NSInteger)section
+{
+    [self.sectionExpandedState setObject:@(![self sectionIsExpanded:section]) forKey:[NSNumber numberWithInteger:section]];
+}
+
+- (void) tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    if ([self sectionIsExpanded:indexPath.section]) {
+        NSMutableArray *indexPaths = [[NSMutableArray alloc]init];
+        int retainPosition = indexPath.row;
+        for (int i = 0; i < [self.tableView numberOfRowsInSection:indexPath.section]; i++) {
+            if (i != retainPosition) {
+                [indexPaths addObject:[NSIndexPath indexPathForRow:i inSection:indexPath.section]];
+            }
+        }
+        [self toggleSectionExpandedState:indexPath.section];
+        [self.tableView deleteRowsAtIndexPaths:indexPaths withRowAnimation:UITableViewRowAnimationFade];
+    } else {
+        NSMutableArray *indexPaths = [[NSMutableArray alloc]init];
+        int insertPosition = indexPath.row + 1;
+        for (int i = 0; i < 3; i++) {
+            [indexPaths addObject:[NSIndexPath indexPathForRow:insertPosition++ inSection:indexPath.section]];
+        }
+        [self toggleSectionExpandedState:indexPath.section];
+        [self.tableView insertRowsAtIndexPaths:indexPaths withRowAnimation:UITableViewRowAnimationFade];
+    }
 }
 
 @end

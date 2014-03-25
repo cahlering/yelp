@@ -13,6 +13,7 @@
 #import "../models/YPSearchResponse.h"
 #import "MBAlertView.h"
 #import <CoreLocation/CoreLocation.h>
+#import "../models/YPFilterSettings.h"
 
 @interface YPSearchResultListViewController () <CLLocationManagerDelegate>
 
@@ -21,6 +22,7 @@
 @property (strong, nonatomic) YPSearchResultTableViewCell *offScreenCell;
 @property (strong, nonatomic) NSString *latitudeString;
 @property (strong, nonatomic) NSString *longitudeString;
+@property (strong, nonatomic) YPFilterSettings *filterSettings;
 
 @end
 
@@ -66,10 +68,14 @@ NSString *const CustomCellName = @"YPSearchResultTableViewCell";
     [manager startUpdatingLocation];
     geocoder = [[CLGeocoder alloc]init];
     
+    self.filterSettings = [[YPFilterSettings alloc]init];
+    
 }
 
 - (void)onFilterButton {
-    [self.navigationController pushViewController:[[YPSearchFiltersViewController alloc]init] animated:YES];
+    YPSearchFiltersViewController *searchFiltersViewController = [[YPSearchFiltersViewController alloc]init];
+    [searchFiltersViewController setSettings:self.filterSettings];
+    [self.navigationController pushViewController:searchFiltersViewController animated:YES];
 }
 
 - (void)didReceiveMemoryWarning
