@@ -20,6 +20,17 @@
     self.window.rootViewController = rvc;
     self.window.backgroundColor = [UIColor redColor];
     [self.window makeKeyAndVisible];
+
+//    [[UIBarButtonItem appearanceWhenContainedIn:[UISearchBar class], nil] setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:
+//                                                                                                  [UIColor whiteColor],
+//                                                                                                  NSForegroundColorAttributeName,
+//                                                                                                  nil]
+//                                                                                        forState:UIControlStateNormal];
+//    [[UIBarButtonItem appearanceWhenContainedIn:[UINavigationController class], nil] setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:
+//                                                                                                  [UIColor whiteColor],
+//                                                                                                  NSForegroundColorAttributeName,
+//                                                                                                  nil]
+//                                                                                        forState:UIControlStateNormal];
     return YES;
 }
 

@@ -56,11 +56,14 @@ NSString *const CustomCellName = @"YPSearchResultTableViewCell";
     [self.tableView registerNib:ypBusinessCellNib forCellReuseIdentifier:CustomCellName];
     
     UISearchBar *searchBar = [[UISearchBar alloc]init];
-    searchBar.showsCancelButton = YES;
-    searchBar.backgroundColor = [UIColor redColor];
-    self.navigationItem.titleView = searchBar;
-    self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"Filter" style:UIBarButtonItemStyleBordered target:self action:@selector(onFilterButton)];
     searchBar.delegate = self;
+    self.navigationController.navigationBar.tintColor = [UIColor whiteColor];
+    self.navigationController.navigationBar.barTintColor = [UIColor redColor];
+    self.navigationItem.titleView = searchBar;
+    UIBarButtonItem *filterButtonItem =[[UIBarButtonItem alloc] initWithTitle:@"Filter" style:UIBarButtonItemStylePlain target:self action:@selector(onFilterButton)];
+    [filterButtonItem setTitleTextAttributes:@{NSForegroundColorAttributeName:[UIColor whiteColor]} forState:UIControlStateNormal];
+    self.navigationItem.leftBarButtonItem = filterButtonItem;
+
     
     manager = [[CLLocationManager alloc]init];
     manager.delegate = self;
@@ -149,13 +152,24 @@ NSString *const CustomCellName = @"YPSearchResultTableViewCell";
 
 - (void)searchBarTextDidEndEditing:(UISearchBar *)searchBar
 {
-    NSLog(@"edit end");
+    [searchBar resignFirstResponder];
 }
 
 - (void)searchBarSearchButtonClicked:(UISearchBar *)searchBar
 {
     NSLog(@"search clicked");
     [self getBusinessesWithSearchTerm:searchBar.text];
+}
+
+- (void) searchBarTextDidBeginEditing:(UISearchBar *)searchBar
+{
+	[searchBar setShowsCancelButton:YES animated:true];
+}
+
+- (void) searchBarCancelButtonClicked:(UISearchBar *)searchBar
+{
+    [searchBar resignFirstResponder];
+	[searchBar setShowsCancelButton:NO animated:true];
 }
 
 #pragma mark CLLocationManagerDelegate methods
