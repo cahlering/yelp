@@ -15,10 +15,13 @@
             <rect key="frame" x="0.0" y="0.0" width="320" height="758"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" style="grouped" separatorStyle="default" rowHeight="44" sectionHeaderHeight="10" sectionFooterHeight="10" translatesAutoresizingMaskIntoConstraints="NO" id="HNv-cF-Yt1">
-                    <rect key="frame" x="0.0" y="-14" width="320" height="758"/>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="grouped" separatorStyle="default" rowHeight="44" sectionHeaderHeight="10" sectionFooterHeight="10" translatesAutoresizingMaskIntoConstraints="NO" id="HNv-cF-Yt1">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="758"/>
                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                     <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="320" id="Icp-Tg-yze"/>
+                    </constraints>
                     <connections>
                         <outlet property="dataSource" destination="-1" id="N2c-re-tcS"/>
                         <outlet property="delegate" destination="-1" id="5gb-Po-aFb"/>
@@ -26,6 +29,11 @@
                 </tableView>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="HNv-cF-Yt1" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="9JN-Mt-aBb"/>
+                <constraint firstAttribute="bottom" secondItem="HNv-cF-Yt1" secondAttribute="bottom" id="FfQ-fb-j0b"/>
+                <constraint firstItem="HNv-cF-Yt1" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="aTZ-rn-5GL"/>
+            </constraints>
             <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
             <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
         </view>

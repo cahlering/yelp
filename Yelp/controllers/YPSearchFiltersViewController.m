@@ -28,6 +28,7 @@ enum SortBy {
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
 @property (strong, nonatomic) IBOutlet UITableViewCell *switchTableViewCell;
 @property (strong, nonatomic) NSMutableDictionary *sectionExpandedState;
+@property (nonatomic) BOOL moreClicked;
 
 @end
 
@@ -114,11 +115,10 @@ enum SortBy {
         }
         case categories:
         {
-            int ct = [self.categories allKeys].count;
             if ([self sectionIsExpanded:section]) {
                 return [self.categories allKeys].count;
             }
-            return 4;
+            return 4 - (self.moreClicked ? 1 : 0);
         }
         default:
             return 0;
@@ -224,9 +224,11 @@ enum SortBy {
                 [deleteIndexPaths addObject:[NSIndexPath indexPathForRow:3 inSection:indexPath.section]];
                 NSMutableArray *indexPaths = [[NSMutableArray alloc]init];
                 
-                for (int i = 4; i < [self.categories allKeys].count; i++) {
+                for (int i = 3; i < [self.categories allKeys].count; i++) {
                     [indexPaths addObject:[NSIndexPath indexPathForRow:i inSection:indexPath.section]];
                 }
+                self.moreClicked = YES;
+                [self.tableView deleteRowsAtIndexPaths:deleteIndexPaths withRowAnimation:UITableViewRowAnimationNone];
                 [self toggleSectionExpandedState:indexPath.section];
                 [self.tableView insertRowsAtIndexPaths:indexPaths withRowAnimation:UITableViewRowAnimationFade];
             }
@@ -289,6 +291,8 @@ enum SortBy {
         case hasDeals:
             break;
     }
+    
+    [self.tableView deselectRowAtIndexPath:indexPath animated:YES];
 }
 
 @end

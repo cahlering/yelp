@@ -203,4 +203,9 @@ NSString *const CustomCellName = @"YPSearchResultTableViewCell";
     _longitudeString = [NSString stringWithFormat:@"%.8f", mostRecentLocation.coordinate.longitude];
 }
 
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    [self.tableView deselectRowAtIndexPath:indexPath animated:YES];
+}
+
 @end
